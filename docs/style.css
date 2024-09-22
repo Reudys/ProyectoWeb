@@ -4,7 +4,7 @@ body {
 #header {
     width: 100%;
     height: 20vh;
-    background-image: url("public/img-top.jpg");
+    background-image: url("https://reudys.github.io/ProyectoWeb/public/img-top.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
