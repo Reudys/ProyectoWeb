@@ -49,4 +49,8 @@ body {
     font-size: 30px;       /* Tamaño de la letra */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para dar un efecto flotante */
     z-index: 1000;         /* Asegura que esté siempre por encima de otros elementos */
+    background-image: url("https://reudys.github.io/ProyectoWeb/public/main-mode.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
 }

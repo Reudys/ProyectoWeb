@@ -1,15 +1,15 @@
-modeActive = false
+let modeActive = false
 function SwitchMode () {
     var modes = document.getElementById("body");
-    var modeslogo = document.getElementById("modes-logo")
+    var modeslogo = document.getElementById("boton-flotante")
 
     if (modeActive == false) {
         modes.style.backgroundColor = "#000000";
-        modeslogo.setAttribute("src", "public/nigth-mode.png");
+        modeslogo.style.backgroundImage = "url('https://reudys.github.io/ProyectoWeb/public/nigth-mode.png')";
         modeActive = true
     } else {
         modes.style.backgroundColor = "#ffffff";
-        modeslogo.setAttribute("src", "public/main-mode.png");
+        modeslogo.style.backgroundImage = "url('https://reudys.github.io/ProyectoWeb/public/main-mode.png')";
         modeActive = false
     }
 }
