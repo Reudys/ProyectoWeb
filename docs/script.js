@@ -5,11 +5,11 @@ function SwitchMode () {
 
     if (modeActive == false) {
         modes.style.backgroundColor = "#000000";
-        modeslogo.setAttribute("src", "public/nigth-mode.png");
+        modeslogo.setAttribute("src", "../public/nigth-mode.png");
         modeActive = true
     } else {
         modes.style.backgroundColor = "#ffffff";
-        modeslogo.setAttribute("src", "public/main-mode.png");
+        modeslogo.setAttribute("src", "../public/main-mode.png");
         modeActive = false
     }
 }
