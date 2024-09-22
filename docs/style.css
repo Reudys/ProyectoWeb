@@ -139,5 +139,7 @@ body {
 @media screen and (max-width: 870px){
     .card {
         flex-direction: column;
+        align-items: center;
+        height: 130vh;
     }
 }
