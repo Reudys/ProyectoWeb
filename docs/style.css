@@ -63,6 +63,59 @@ body {
     transition: 1s;
 }
 
+.card {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    color: #282529;
+}
+
+.img-container {
+    width: 50%;
+    height: 60vh;
+    overflow: hidden; 
+    position: relative;
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-card:hover {
+    transform: scale(1.2);
+}
+
+#img-content-1 {
+    background-image: url("public/img-content-1.jpg");
+}
+
+#img-content-2 {
+    background-image: url("public/img-content-2.jpg");
+}
+
+.text-card-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-card {
+    margin: 3vh;
+}
+
+.r {
+    flex-direction: row-reverse;
+}
+
 #boton-flotante {
     position: fixed;
     bottom: 20px;
