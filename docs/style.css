@@ -25,9 +25,13 @@ body {
 
 #title {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 45px;
     margin-left: 1%;
     margin-bottom: 0;
+}
+
+#slogan {
+    font-size: 20px;
 }
 
 .text-header {
@@ -141,5 +145,22 @@ body {
         flex-direction: column;
         align-items: center;
         height: 130vh;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .text-card-content {
+        width: 70%;
+        text-align: justify;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #slogan {
+        font-size: 10px;
     }
 }
