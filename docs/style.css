@@ -48,15 +48,19 @@ body {
 
 .nav-buttom {
     text-decoration: none;
-    margin-left: 1%;
-    margin-right: 0.6%;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transition: 1s
 }
 
 .nav-buttom:hover {
-
+    background-color: #ffffff;
+    color: #e10612;
+    transition: 1s;
 }
 
 #boton-flotante {
