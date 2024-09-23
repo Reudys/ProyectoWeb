@@ -117,6 +117,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    text-align: justify;
 }
 
 .text-card {
@@ -131,6 +132,37 @@ body {
     width: 100%;
     height: 25vh;
     background-color: #082b5f;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: -2%;
+}
+
+.footer-text {
+    font-size: 12px;
+    width: 15vw;
+    text-align: justify;
+}
+
+.footer-line {
+    width: 2px;
+    height: 80%;
+    background-color: #ffffff;
+    border: none;
 }
 
 #boton-flotante {
