@@ -68,6 +68,67 @@ body {
     transition: 1s;
 }
 
+/* Estilo general del menú */
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    position: relative;
+    z-index: 2;
+}
+
+.nav-buttom-movile {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1vh 2vw;
+    transition: 1s;
+    background-color: #e10612;
+}
+
+.nav-buttom-movile:hover {
+    background-color: #ffffff;
+    color: #e10612;
+    transition: 1s;
+}
+
+/* Estilo del submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: #e10612;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1vh 2vw;
+    display: block;
+    transition: 1s;
+}
+
+.submenu li a:hover {
+    background-color: #ffffff;
+    color: #e10612;
+    transition: 1s;
+}
+
+/* Mostrar el submenu al pasar el mouse */
+.nav-item:hover .submenu {
+    display: block;
+}
+
 #content {
     padding: 2%;
 }
@@ -78,7 +139,8 @@ body {
     display: flex;
     flex-direction: row;
     color: #282529;
-    background-color: rgb(242, 242, 242);
+    /*background-color: rgb(242, 242, 242);*/
+    background-color: rgb(234, 233, 233);
     margin-bottom: 1%;
 }
 
@@ -224,5 +286,18 @@ body {
 
     .footer-text {
         width: 100%;
+    }
+
+    .footer-line {
+        width: 80%;
+        height: 2px;
+    }
+
+    .nav-buttom {
+        display: none;
+    }
+
+    #nav {
+        justify-content: left;
     }
 }
