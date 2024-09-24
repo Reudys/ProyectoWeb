@@ -213,4 +213,16 @@ body {
     #slogan {
         font-size: 10px;
     }
+
+    #footer {
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer-content {
+        width: 55%;
+    }
+
+    .footer-text {
+        width: 100%;
+    }
 }
