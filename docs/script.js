@@ -27,6 +27,6 @@ function SwitchMode() {
     }
 }
 
-fetch('header.html')
+fetch('pageContent/header.html')
 .then(response => response.text())
 .then(data => {document.getElementById('header').innerHTML = data;});
