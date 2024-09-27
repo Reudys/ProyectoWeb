@@ -327,7 +327,7 @@ body {
 
     .img-card {
         background-attachment: fixed;
-        transition: none;
+        transition: transform none;
     }
 
     .img-card:hover {
