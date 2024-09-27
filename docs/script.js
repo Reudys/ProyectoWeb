@@ -27,6 +27,14 @@ function SwitchMode() {
     }
 }
 
-fetch('pageContent/header.html')
+fetch('https://reudys.github.io/ProyectoWeb/pageContent/header.html')
 .then(response => response.text())
-.then(data => {document.getElementById('header').innerHTML = data;});
+.then(data => {document.getElementById('header').innerHTML = data;})
+
+fetch('https://reudys.github.io/ProyectoWeb/pageContent/nav.html')
+.then(response => response.text())
+.then(data => {document.getElementById('nav').innerHTML = data;})
+
+.fetch('https://reudys.github.io/ProyectoWeb/pageContent/footer.html')
+.then(response => response.text())
+.then(data => {document.getElementById('footer').innerHTML = data;})
