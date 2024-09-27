@@ -73,11 +73,13 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: none;
 }
 
 .nav-item {
     position: relative;
     z-index: 2;
+    
 }
 
 .nav-buttom-movile {
@@ -299,5 +301,9 @@ body {
 
     #nav {
         justify-content: left;
+    }
+
+    .nav-menu {
+        display: block;
     }
 }
