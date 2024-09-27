@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: tahoma;
 }
+/*------------------------------------*/
+/*---------------HEADER---------------*/
+/*------------------------------------*/
 #header {
     width: 100%;
     height: 30vh;
@@ -41,6 +44,10 @@ body {
     margin-top: 0;
 }
 
+/*------------------------------------*/
+/*---------------NAV------------------*/
+/*------------------------------------*/
+
 #nav {
     width: 100%;
     height: 5vh;
@@ -67,8 +74,9 @@ body {
     color: #e10612;
     transition: 1s;
 }
-
-/* Estilo general del menú */
+/*------------------------------------*/
+/*-----------MENU MOVILE--------------*/
+/*------------------------------------*/
 .nav-menu {
     list-style-type: none;
     padding: 0;
@@ -97,8 +105,9 @@ body {
     color: #e10612;
     transition: 1s;
 }
-
-/* Estilo del submenu */
+/*------------------------------------*/
+/*----------SUBMENU MOVILE------------*/
+/*------------------------------------*/
 .submenu {
     display: none;
     position: absolute;
@@ -126,10 +135,13 @@ body {
     transition: 1s;
 }
 
-/* Mostrar el submenu al pasar el mouse */
 .nav-item:hover .submenu {
     display: block;
 }
+
+/*------------------------------------*/
+/*---------------CONTENT--------------*/
+/*------------------------------------*/
 
 #content {
     padding: 2%;
@@ -141,7 +153,6 @@ body {
     display: flex;
     flex-direction: row;
     color: #282529;
-    /*background-color: rgb(242, 242, 242);*/
     background-color: rgb(234, 233, 233);
     margin-bottom: 1%;
 }
@@ -191,6 +202,10 @@ body {
 .r {
     flex-direction: row-reverse;
 }
+
+/*------------------------------------*/
+/*----------------FOOTER--------------*/
+/*------------------------------------*/
 
 #footer {
     width: 100%;
@@ -253,6 +268,9 @@ body {
     display: none;
 }
 
+/*------------------------------------*/
+/*---------MOVILE STYLES--------------*/
+/*------------------------------------*/
 
 @media screen and (max-width: 870px){
     .card {
