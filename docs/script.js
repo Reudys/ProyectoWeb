@@ -27,6 +27,8 @@ function SwitchMode() {
     }
 }
 
+const inicio = 'https://reudys.github.io/ProyectoWeb/pageContent/inicio.html'
+const reservaciones = 'https://reudys.github.io/ProyectoWeb/pageContent/reservaciones.html'
 
 //HEADER
 fetch('https://reudys.github.io/ProyectoWeb/pageContent/header.html')
@@ -40,7 +42,7 @@ fetch('https://reudys.github.io/ProyectoWeb/pageContent/nav.html')
 
 
 //CONTENT
-fetch('https://reudys.github.io/ProyectoWeb/pageContent/inicio.html')
+fetch(inicio)
 .then(response => response.text())
 .then(data => {document.getElementById('content').innerHTML = data;})
 
@@ -48,3 +50,17 @@ fetch('https://reudys.github.io/ProyectoWeb/pageContent/inicio.html')
 fetch('https://reudys.github.io/ProyectoWeb/pageContent/footer.html')
 .then(response => response.text())
 .then(data => {document.getElementById('footer').innerHTML = data;})
+
+//Funciones para Botones
+
+function btnInicio() {
+    fetch(inicio)
+    .then(response => response.text())
+    .then(data => {document.getElementById('content').innerHTML = data;}) 
+}
+
+function btnReservaciones() {
+    fetch(reservaciones)
+    .then(response => response.text())
+    .then(data => {document.getElementById('content').innerHTML = data;}) 
+}
