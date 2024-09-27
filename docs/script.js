@@ -35,6 +35,6 @@ fetch('https://reudys.github.io/ProyectoWeb/pageContent/nav.html')
 .then(response => response.text())
 .then(data => {document.getElementById('nav').innerHTML = data;})
 
-.fetch('https://reudys.github.io/ProyectoWeb/pageContent/footer.html')
+fetch('https://reudys.github.io/ProyectoWeb/pageContent/footer.html')
 .then(response => response.text())
 .then(data => {document.getElementById('footer').innerHTML = data;})
