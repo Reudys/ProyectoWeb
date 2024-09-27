@@ -324,4 +324,13 @@ body {
     .nav-menu {
         display: block;
     }
+
+    .img-card {
+        background-attachment: fixed;
+        transition: none;
+    }
+
+    .img-card:hover {
+        transform: none;
+    }
 }
