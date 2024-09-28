@@ -82,6 +82,7 @@ body {
     padding: 0;
     margin: 0;
     display: none;
+    cursor: pointer; /* Añade el puntero para indicar que es interactivo */
 }
 
 .nav-item {
