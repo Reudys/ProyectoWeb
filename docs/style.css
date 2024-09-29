@@ -278,6 +278,26 @@ body {
         height: 20vh;    
     }
 
+    #title {
+        font-size: 25px;
+    }
+
+    #slogan {
+        font-size: 10px;
+    }
+
+    .nav-buttom {
+        display: none;
+    }
+
+    #nav {
+        justify-content: left;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
     .card {
         flex-direction: column;
         align-items: center;
@@ -293,12 +313,13 @@ body {
         text-align: justify;
     }
 
-    #title {
-        font-size: 25px;
+    .img-card {
+        background-attachment: fixed;
+        transition: transform none;
     }
 
-    #slogan {
-        font-size: 10px;
+    .img-card:hover {
+        transform: none;
     }
 
     #footer {
@@ -316,26 +337,5 @@ body {
     .footer-line {
         width: 80%;
         height: 2px;
-    }
-
-    .nav-buttom {
-        display: none;
-    }
-
-    #nav {
-        justify-content: left;
-    }
-
-    .nav-menu {
-        display: block;
-    }
-
-    .img-card {
-        background-attachment: fixed;
-        transition: transform none;
-    }
-
-    .img-card:hover {
-        transform: none;
     }
 }
